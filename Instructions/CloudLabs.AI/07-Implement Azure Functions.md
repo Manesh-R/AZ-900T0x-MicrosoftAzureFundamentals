@@ -20,7 +20,7 @@ In this task, we will create a Function app.
     | Settings | Value |
     | -- | --|
     | Subscription | the name of your Azure subscription |
-    | Resource group | the name of a new resource group **myRGFunction-[deployId]** |
+    | Resource group | the name of **existing** resource group **myRGFunction-[deployId]**** |
     | Function App name | **function-xxxx** |
     | Publish | **Code** |
     | Runtime stack | **.NET Core** |
@@ -81,4 +81,3 @@ In this task, we will use the Webhook + API function to display a message when t
 
 Congratulations! You have created a Function App to display a Hello message when there is an HTTP request. 
 
-**Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.

@@ -21,7 +21,7 @@ In this task, we will create a new container instance for the web application.
 	| Setting| Value|
 	|----|----|
 	| Subscription | **Choose your subscription** |
-	| Resource group | **myRGContainer-[deployId]** (create new) |
+	| Resource group | **myRGContainer-[deployId]** (use existing) |
 	| Container name| **mycontainer**|
 	| Region | **(US) East US** |
 	| Image source| **Docker Hub or other registry**|
@@ -71,4 +71,3 @@ In this task, we verify that the container instance is running by ensuring that 
 
 Congratulations! You have used Azure Portal to successfully deploy an application to a container in Azure Container Instance.
 
-**Note**: To avoid additional costs, you can remove this resource group. Search for resource groups, click your resource group, and then click **Delete resource group**. Verify the name of the resource group and then click **Delete**. Monitor the **Notifications** to see how the delete is proceeding.
