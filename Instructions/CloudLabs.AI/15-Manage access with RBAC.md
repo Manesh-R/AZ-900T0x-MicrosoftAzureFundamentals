@@ -13,20 +13,18 @@ In this task, we will assign the Virtual machine contributor role.
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Resource groups**, then click **+ Add**.
+2. From the **All services** blade, search for and select **Resource groups**
 
-3. Create a new resource group. Click **Create** when you are finished. 
+3. Then view the existing resource group. 
 
     | Setting | Value |
     | -- | -- |
-    | Subscription | **Choose your subscription** |
     | Resource group | **myRGRBAC-[deployId]** |
-    | Region | **(US) East US** |
     | | |
 
-4. Create **Review + create** and then click **Create**.
+4. Click on the existing resource group
 
-5. **Refresh** the resource group page and click the entry representing the newly created resource group.
+5. You will be directed to the overview page of the resource group
 
 6. Click on the **Access control (IAM)** blade, and then switch to the **Roles** tab. Scroll through the large number of roles definitions that are available. Use the Informational icons to get an idea of each role's permissions. Notice there is also information on the number of users and groups that are assigned to each role.
 

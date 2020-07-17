@@ -5,30 +5,21 @@ wts:
 ---
 # 16 - Manage resource locks
 
-In this walkthrough, we will create a resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
+In this walkthrough, we will verify the existing resource group, add a lock to resource group and test deletion, test deleting a resource in the resource group, and remove the resource lock. 
 
-# Task 1: Create a resource group
+# Task 1: Verify the existing resource group
 
-In this task, we will create a resource group for this exercise. 
+In this task, we will verify the existing resource group for this exercise. 
 
 1. Sign in to the [Azure portal](https://portal.azure.com).
 
-2. From the **All services** blade, search for and select **Resource groups**, then select **+ Add**.
-
-3. Create a new resource group. When you are done click **Review + create** and then **Create**. 
-
-    | Setting | Value |
-    | -- | -- |
-    | Subscription | **Use your subscription** |
-    | Name | **myRGLocks-[deployId]** |
-    | Region | **(US) East US** |
-    | | |
+2. From the **All services** blade, search for and select **Resource groups**, then view the existing resource group.
 
 # Task 2:  Add a Lock to the resource group and test deletion
 
 In this task, we will add a resource lock to the resource group and test deleting the resource group. 
 
-1. In the Azure portal, navigate to the newly created resource group **myRGLocks-[deployId]**.
+1. In the Azure portal, navigate to the existing resource group **myRGLocks-[deployId]**.
 
 2. You can apply a lock to a subscription, resource group, or individual resource to prevent accidental deletion or modification of critical resources. 
 

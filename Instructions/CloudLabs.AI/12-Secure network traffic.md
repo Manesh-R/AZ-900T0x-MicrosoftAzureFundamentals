@@ -92,7 +92,7 @@ In this task, we will allow RDP traffc to the virtual machine by configuring an 
 
     ![Screenshot of the error message that the virtual machine connection has failed.](../images/1201.png)
 
-4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: myVMNic)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
+4. On the virtual machine blade, scroll down to the **Settings** section, click on **Networking**, and notice the inbound rules for the **myNSGSecure (attached to network interface: simplewinvmxxxx)** network security group deny all inbound traffic except traffic within the virtual network and load balancer probes.
 
 5. On the **Inbound port rules** tab, click **Add inbound port rule** . Click **Add** when you are done. 
 
@@ -128,7 +128,7 @@ In this task, we will create a NSG outbound port rule that will deny Internet ac
 
 6. Notice there is a rule, **AllowInternetOutbound**. This a default rule and cannot be removed. 
 
-7. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: myVMNic)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
+7. Click **Add outbound port rule** to the right of the **myNSGSecure  (attached to network interface: simplewinvmxxxx)** network security group and configure a new outbound security rule with a higher priority that will deny internet traffic. Click **Add** when you are finished. 
 
     | Setting | Value |
     | -- | -- |

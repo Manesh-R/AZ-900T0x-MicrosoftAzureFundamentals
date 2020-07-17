@@ -21,7 +21,7 @@ In this task, we will configure Cloud Shell.
 
 4. When prompted to select either **Bash** or **PowerShell**, select **Bash**. 
 
-5. When prompted, click **Create storage**, and wait for the Azure Cloud Shell to initialize. 
+5. When prompted, select **Show advanced settings** and then select **Use existing** and choose existing resource group. Then select **Create new** against Storage account as well as File Share and provide a unique value in both of the fields and then click on **Create storage**, and wait for the Azure Cloud Shell to initialize. 
 
 # Task 2: Create a resource group and a virtual machine
 

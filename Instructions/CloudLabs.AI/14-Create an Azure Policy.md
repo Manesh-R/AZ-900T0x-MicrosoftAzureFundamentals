@@ -52,7 +52,7 @@ In this task, we will test the Allowed location policy.
     | Setting | Value | 
     | --- | --- |
     | Subscription | **Use your subscription** |
-    | Resource group | **myRGPolicy-[deployId]** (use existing) |
+    | Resource group | **myRGPolicy** (use existing) |
     | Storage account name | **storageaccountxxxx** |
     | Location | **(US) East US** |
     | | |
