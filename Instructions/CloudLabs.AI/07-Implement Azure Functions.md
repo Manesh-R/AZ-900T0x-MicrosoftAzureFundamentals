@@ -15,7 +15,7 @@ In this task, we will create a Function app.
 
 1. In the **Search resources, services, and docs** text box at the top of the portal, search for and select **Function App** and then, from the **Function App** blade, click **+ Add**.
 
-1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with letters and digits such that the name is globally unique and leave all other settings with their default values): 
+1. On the **Basic** tab of the **Function App** blade, specify the following settings (replace **xxxx** in the name of the function with the deployment ID and leave all other settings with their default values): 
 
     | Settings | Value |
     | -- | --|

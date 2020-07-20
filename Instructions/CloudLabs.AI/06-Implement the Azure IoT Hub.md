@@ -15,7 +15,7 @@ In this task, we will create an IoT hub.
 
 2. From the **All services** blade, search for and select **IoT Hub** and then click **+ Add**.
 
-3. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique):
+3. On the **Basics** tab of the **IoT hub** blade, fill in the fields with the following details (replace **xxxx** in the name of the storage account with the deployment ID):
 
     | Settings | Value |
     |--|--|

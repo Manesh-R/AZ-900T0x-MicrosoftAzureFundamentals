@@ -32,7 +32,7 @@ In this task, we will create a new container instance for the web application.
 	|||
 
 
-4. Configure the Networking tab (replace **xxxx** with letters and digits such that the name is globally unique). Leave all other settings at their default values .
+4. Configure the Networking tab (replace **xxxx** with the deployment ID). Leave all other settings at their default values .
 
 	| Setting| Value|
 	|--|--|

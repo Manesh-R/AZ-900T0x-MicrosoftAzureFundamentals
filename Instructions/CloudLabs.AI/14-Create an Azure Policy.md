@@ -47,7 +47,7 @@ In this task, we will test the Allowed location policy.
 
 1. In the Azure Portal, from the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**.
 
-2. Configure the storage account (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else. 
+2. Configure the storage account (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else. 
 
     | Setting | Value | 
     | --- | --- |

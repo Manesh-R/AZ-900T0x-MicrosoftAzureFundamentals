@@ -13,7 +13,7 @@ In this walkthrough, we will create an Azure Key vault and then create a passwor
 
 2. From the **All services** blade, search for and select **Key vaults**, then select **+ Add**.
 
-3. Configure the key vault (replace **xxxx** in the name of the key vault with letters and digits such that the name is globally unique). Leave the defaults for everything else.
+3. Configure the key vault (replace **xxxx** in the name of the key vault with the deployment ID). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |

@@ -45,7 +45,7 @@ In this task, we will test if the resource lock protects a storage account in th
 
 1. From the **All services** blade, search for and select **Storage accounts**, and then click **+ Add**. 
 
-2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with letters and digits such that the name is globally unique). Leave the defaults for everything else.
+2. On the **Basics** tab of the **Create storage account** blade, fill in the following information (replace **xxxx** in the name of the storage account with the deployment ID). Leave the defaults for everything else.
 
     | Setting | Value | 
     | --- | --- |
